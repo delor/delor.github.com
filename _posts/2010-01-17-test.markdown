@@ -3,9 +3,20 @@ layout: post
 title: Test
 ---
 # [{{ page.title }}]({{ page.url }} "{{ page.title }}") #
-Test.
+
+Testing some stuff.
+
+## code generated with pyments ##
 
 {% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+with line numbers
+
+{% highlight ruby linenos %}
 def foo
   puts 'foo'
 end
