@@ -1,6 +1,4 @@
-* { font-family: 'Lucida Grande',Verdana,sans-serif; }
-
-body, html { margin:0; padding:0; }
+body, html { margin:0; padding:0; font-family: 'Lucida Grande',Verdana,sans-serif; }
 body { background-color: #F0F0EE; }
 
 a { text-decoration: none; }
@@ -14,9 +12,10 @@ h2 { font-size: 145%; }
 #content { background-color: #FFFFFF; border: 1px solid #CCCCCC; text-align: justify; padding: 0.25em 1.5em 0.5em 1em; }
 #content ul { list-style: none; }
 
-#menu { text-align: left; }
+#menu { text-align: right; }
 #menu h2 { margin-top: 0; }
-#menu ul { list-style: none; }
+#menu ul { list-style-type: none; }
+#menu li a { display: block; }
 
 #footer { clear:both; padding:5px 10px; border-style: solid; border-color: gray; border-width: 1px 0 0; }
 #footer p { text-align: right; font-size: small; margin: 0; }
