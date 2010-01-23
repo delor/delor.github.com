@@ -2,8 +2,6 @@
 layout: post
 title: Test
 ---
-# [{{ page.title }}]({{ page.url }} "{{ page.title }}") #
-
 Testing some stuff.
 
 ## code generated with pyments ##
