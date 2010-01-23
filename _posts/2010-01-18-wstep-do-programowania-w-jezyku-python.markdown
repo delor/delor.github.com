@@ -2,8 +2,6 @@
 layout: post
 title: Wstęp do programowania w języku Python
 ---
-# [{{ page.title }}]({{ page.url }} "{{ page.title }}") #
-
 ## Python — uruchamianie interpretera ##
 
 *   interaktywne: python
