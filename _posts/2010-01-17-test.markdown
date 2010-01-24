@@ -19,3 +19,7 @@ def foo
   puts 'foo'
 end
 {% endhighlight %}
+
+embeded gist
+
+<script src="http://gist.github.com/284902.js?file=test.rb"></script>
