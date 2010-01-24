@@ -9,7 +9,16 @@ a:link { color: #0066CC; }
 h1 { font-size: 175%; }
 h2 { font-size: 145%; }
 
-#header { -moz-border-radius-topleft: 1em; -moz-border-radius-topright: 1em; background-color: #333333; text-align: center; }
+#header {
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-top-right-radius: 15px;
+    background-color: #333333;
+    border-top-left-radius: 15px
+    border-top-right-radius: 15px;
+    text-align: center;
+}
 #header h1 { font-size: x-large; margin: 0; padding: 0.2em 1em; }
 #header h1 a, #header h1 a:visited { color: white; }
 #header p { font-size: small; margin: 0; padding: 0; color: white; }
