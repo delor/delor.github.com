@@ -17,6 +17,7 @@ h2 { font-size: 145%; }
     background-color: #333333;
     border-bottom-left-radius: 15px
     border-bottom-right-radius: 15px;
+    margin-bottom: 40px;
 }
 
 #top h1 {
@@ -44,7 +45,14 @@ h2 { font-size: 145%; }
 #header h1 a, #header h1 a:visited { color: white; }
 #header p { font-size: small; margin: 0; padding: 0; color: white; }
 
-#content { background-color: #FFFFFF; border: 1px solid #CCCCCC; text-align: justify; padding: 0.25em 1.5em 0.5em 1em; }
+#content {
+    background-color: #FFFFFF;
+    border: 1px solid #CCC;
+    border-width: 0 1px;
+    padding: 0.25em 1.5em 0.5em 1.5em;
+    text-align: justify;
+}
+
 #content ul { list-style: none; }
 
 #menu { text-align: right; }
