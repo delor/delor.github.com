@@ -9,6 +9,26 @@ a:link { color: #0066CC; }
 h1 { font-size: 175%; }
 h2 { font-size: 145%; }
 
+#top {
+    -moz-border-radius-bottomleft: 15px;
+    -moz-border-radius-bottomright: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    background-color: #333333;
+    border-bottom-left-radius: 15px
+    border-bottom-right-radius: 15px;
+}
+
+#top h1 {
+    font-size: xx-large;
+    margin: 0;
+    padding: .2em 1em;
+}
+
+#top h1 a, #top h1 a:hover {
+    color: white;
+}
+
 #header {
     -moz-border-radius-topleft: 15px;
     -moz-border-radius-topright: 15px;
@@ -19,6 +39,7 @@ h2 { font-size: 145%; }
     border-top-right-radius: 15px;
     text-align: center;
 }
+
 #header h1 { font-size: x-large; margin: 0; padding: 0.2em 1em; }
 #header h1 a, #header h1 a:visited { color: white; }
 #header p { font-size: small; margin: 0; padding: 0; color: white; }
