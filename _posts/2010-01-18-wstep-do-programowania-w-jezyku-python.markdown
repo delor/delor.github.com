@@ -4,25 +4,24 @@ title: Wstęp do programowania w języku Python
 ---
 ## Python — uruchamianie interpretera ##
 
-*   interaktywne: python
-*   wsadowe (nieinteraktywne): python nazwa_pliku
-*   automatyczne (przez powłokę):
-*   pierwszy wiersz pliku: `#!/usr/bin/python` (w zależności od realnego umiejscowienia interpretera w systemie plików, co można sprawdzić przez which python) oraz
-*   `chmod a+x plik` (aby plik był uruchamialny)
+*   interaktywne: `python`
+*   wsadowe (nieinteraktywne): `python nazwa_pliku`
+*   automatyczne przez powłokę
+    pierwszy wiersz pliku: `#!/usr/bin/env python` oraz `chmod a+x plik` aby plik był uruchamialny
 
 ## Python — specyfika języka ##
 
-*   komentarze # jak w powłoce
-*   obowiązkowe wcięcia (zamiast begin...end)
+*   komentarze `#` jak w powłoce
+*   obowiązkowe wcięcia (zamiast begin...end) standard pep8 definiuje 4 spacje na wcięcie
 *   specyficzne operatory:
-    *   `**` (potęga)
-    *   `*` (mnożenie, powielanie)
-    *   `//` (dzielenie całkowite)
-    *   `%` (modulo, formatowanie napisów)
-    *   `+` (dodawanie, łączenie)
-    *   `==`, `!=` (równe, różne)
-    *   `x > y >= z` (łańcuchy porównań)
-    *   `in`, `not in` (należy, nie należy)
+    *   `**` - potęga
+    *   `*` - mnożenie, powielanie
+    *   `//` - dzielenie całkowite
+    *   `%` - modulo, formatowanie napisów
+    *   `+` - dodawanie, łączenie
+    *   `==`, `!=` - równe, różne
+    *   `x > y >= z` - łańcuchy porównań
+    *   `in`, `not in` - należy, nie należy
     *   `and`, `or` (uwaga na zwracane wartości!)
 *   podstawienia z operacją: `+=`, `-=`, `*=`, `/=`, `%=`, `**=`, ...
 *   wszystko jest obiektem
@@ -30,5 +29,17 @@ title: Wstęp do programowania w języku Python
 *   obowiązek inicjowania zmiennej
 *   specyficzne typy danych: słowniki, listy, krotki
 *   mapowanie i filtrowanie list
-*   moduły (import moduł, from moduł import obiekty, funkcja dir)
-*   wyjątki (try...except...[else...][finally...], try...finally..., raise, IOError, ImportError, KeyError)
+*   moduły (`import moduł`, `from moduł import obiekty`, funkcja `dir`)
+*   wyjątki
+
+        {% highlight python %}
+        try:
+            # kod, który może spowodować wystąpienie wyjątku
+        except:
+            # kod obsługujący wyjątek
+        else:
+            # kod, który zostanie wykonany gdy nie wystąpił wyjątek
+        finally:
+            # kod, który zawsze zostanie wykonany
+        {% endhighlight %}
+    `raise` wyrzuca wyjątek
