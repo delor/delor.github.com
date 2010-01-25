@@ -31,7 +31,6 @@ title: Wstęp do programowania w języku Python
 *   mapowanie i filtrowanie list
 *   moduły (`import moduł`, `from moduł import obiekty`, funkcja `dir`)
 *   wyjątki
-        {% highlight python %}
         try:
             # kod, który może spowodować wystąpienie wyjątku
         except:
@@ -40,5 +39,4 @@ title: Wstęp do programowania w języku Python
             # kod, który zostanie wykonany gdy nie wystąpił wyjątek
         finally:
             # kod, który zawsze zostanie wykonany
-        {% endhighlight %}
     `raise` wyrzuca wyjątek
