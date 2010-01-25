@@ -1,4 +1,9 @@
-body, html { margin:0; padding:0; font-family: 'Lucida Grande',Verdana,sans-serif; }
+body, html {
+    font: medium/1.75 'Gill Sans','Gill Sans MT',Corbel,Helvetica,'Nimbus Sans L',sans-serif
+    margin:0;
+    padding:0;
+}
+
 body { background-color: #F0F0EE; }
 
 a { text-decoration: none; }
@@ -8,6 +13,11 @@ a:link { color: #0066CC; }
 
 h1 { font-size: 175%; }
 h2 { font-size: 145%; }
+
+code, pre {
+    font: small/1 Consolas,'Andale Mono',Monaco,'Liberation Mono','Bitstream Vera Sans Mono','DejaVu Sans Mono',monospace;
+    background-color: #EEEEEE;
+}
 
 #top {
     -moz-border-radius-bottomleft: 15px;
@@ -67,7 +77,11 @@ h2 { font-size: 145%; }
 #footer {
     -moz-border-radius-bottomleft: 15px;
     -moz-border-radius-bottomright: 15px;
-    background-color: #333;
+    -webkit-border-bottom-left-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    background-color: #333333;
+    border-bottom-left-radius: 15px
+    border-bottom-right-radius: 15px;
     color: white;
     padding: 1em;
 }
