@@ -41,7 +41,13 @@ h2 { font-size: 145%; }
     text-align: center;
 }
 
-#header h1 { font-size: x-large; margin: 0; padding: 0.2em 1em; }
+#header h1 {
+    font-size: x-large;
+    margin: 0;
+    padding: 0.2em 1em;
+    color: white;
+}
+
 #header h1 a, #header h1 a:visited { color: white; }
 #header p { font-size: small; margin: 0; padding: 0; color: white; }
 
@@ -60,7 +66,18 @@ h2 { font-size: 145%; }
 #menu ul { list-style-type: none; }
 #menu li a { display: block; }
 
-#footer { clear:both; padding:5px 10px; border-style: solid; border-color: gray; border-width: 1px 0 0; }
-#footer p { text-align: right; font-size: small; margin: 0; }
-#footer a { text-decoration: none; }
-#footer a:hover { color: black; }
+#footer {
+    -moz-border-radius-bottomleft: 15px;
+    -moz-border-radius-bottomright: 15px;
+    background-color: #333;
+    color: white;
+}
+#footer p {
+    text-align: center;
+    font-size: x-small;
+    margin: 0;
+}
+
+#footer a, #footer a:hover {
+    text-decoration: none;
+}
