@@ -71,7 +71,9 @@ h2 { font-size: 145%; }
     -moz-border-radius-bottomright: 15px;
     background-color: #333;
     color: white;
+    padding: 1em;
 }
+
 #footer p {
     text-align: center;
     font-size: x-small;
