@@ -31,7 +31,6 @@ title: Wstęp do programowania w języku Python
 *   mapowanie i filtrowanie list
 *   moduły (`import moduł`, `from moduł import obiekty`, funkcja `dir`)
 *   wyjątki
-
         {% highlight python %}
         try:
             # kod, który może spowodować wystąpienie wyjątku
