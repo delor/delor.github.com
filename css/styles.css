@@ -89,9 +89,11 @@ code, pre {
 #footer p {
     text-align: center;
     font-size: x-small;
+    font-height: 1;
     margin: 0;
 }
 
-#footer a, #footer a:hover {
+#footer a, #footer a:hover, #footer a:visited {
     text-decoration: none;
+    color: #0066CC;
 }
