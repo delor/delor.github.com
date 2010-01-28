@@ -25,7 +25,7 @@ code, pre {
     -webkit-border-bottom-left-radius: 15px;
     -webkit-border-bottom-right-radius: 15px;
     background-color: #333333;
-    border-bottom-left-radius: 15px
+    border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-bottom: 40px;
 }
@@ -46,7 +46,7 @@ code, pre {
     -webkit-border-top-left-radius: 15px;
     -webkit-border-top-right-radius: 15px;
     background-color: #333333;
-    border-top-left-radius: 15px
+    border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     text-align: center;
 }
@@ -96,7 +96,7 @@ code, pre {
     border-style: solid;
     border-width: 1px 0;
     display: block;
-    margin: 5px 0:
+    margin: 5px 0;
     padding-right: 15px;
 }
 
@@ -113,7 +113,7 @@ code, pre {
     -webkit-border-bottom-left-radius: 15px;
     -webkit-border-bottom-right-radius: 15px;
     background-color: #333333;
-    border-bottom-left-radius: 15px
+    border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     color: white;
     padding: .5em 1em;
@@ -123,7 +123,7 @@ code, pre {
 #footer p {
     text-align: center;
     font-size: x-small;
-    font-height: 1;
+    line-height: 1;
     margin: 0;
 }
 
