@@ -69,10 +69,43 @@ code, pre {
     text-align: justify;
 }
 
-#menu { text-align: right; }
-#menu h2 { margin-top: 0; }
-#menu ul { list-style-type: none; }
-#menu li a { display: block; }
+#menu {
+    left: -20px;
+    margin-top: 70px;
+    position: relative;
+    text-align: center;
+}
+
+#menu h2 {
+    -moz-border-radius: 0 15px 15px 0;
+    background-color: #333333;
+    color: white;
+    margin: 0;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: .5em 0;
+}
+
+#menu li {
+    -moz-border-radius: 0 15px 15px 0;
+    background-color: #333333;
+    border-color: #CCCCCC;
+    border-style: solid;
+    border-width: 1px 0;
+    display: block;
+    margin: 5px 0:
+    padding-right: 15px;
+}
+
+#menu li a {
+    background-color: white;
+    display: block;
+    font-weight: bold;
+    padding: 2px 0;
+}
 
 #footer {
     -moz-border-radius-bottomleft: 15px;
