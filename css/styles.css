@@ -65,6 +65,7 @@ code, pre {
     background-color: #FFFFFF;
     border: 1px solid #CCC;
     border-width: 0 1px;
+    min-height: 20em;
     padding: 0.25em 1.5em 0.5em 1.5em;
     text-align: justify;
 }
