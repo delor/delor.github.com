@@ -1,5 +1,5 @@
 body, html {
-    font: medium/1.75 'Gill Sans','Gill Sans MT',Corbel,Helvetica,'Nimbus Sans L',sans-serif;
+    font: medium/1.25 'Gill Sans','Gill Sans MT',Corbel,Helvetica,'Nimbus Sans L',sans-serif;
     margin:0;
     padding:0;
 }
@@ -15,7 +15,7 @@ h1 { font-size: 175%; }
 h2 { font-size: 145%; }
 
 code, pre {
-    font: small/1 Consolas,'Andale Mono',Monaco,'Liberation Mono','Bitstream Vera Sans Mono','DejaVu Sans Mono',monospace;
+    font: small/1.25 Consolas,'Andale Mono',Monaco,'Liberation Mono','Bitstream Vera Sans Mono','DejaVu Sans Mono',monospace;
     background-color: #EEEEEE;
 }
 
@@ -83,7 +83,8 @@ code, pre {
     border-bottom-left-radius: 15px
     border-bottom-right-radius: 15px;
     color: white;
-    padding: 1em;
+    padding: .5em 1em;
+    margin-bottom: 40px;
 }
 
 #footer p {
