@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Wstęp do programowania w języku Python
+category: pas
 ---
 ## Python — uruchamianie interpretera ##
 
@@ -42,10 +43,15 @@ title: Wstęp do programowania w języku Python
     `raise` wyrzuca wyjątek
 
 ## Zadania ##
+
 <div class="question">
+
 Napisać na trzy sposoby standardowy program wypisujący "Hello world!" (interaktywnie, wsadowo i jako skrypt).
+
 </div>
 
 <div class="question">
+
 Napisać funkcję, która dla dwóch argumentów całkowitoliczbowych znajdzie ich największy wspólny dzielnik.
+
 </div>

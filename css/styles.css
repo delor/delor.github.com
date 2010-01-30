@@ -71,12 +71,12 @@ code, pre {
 }
 
 .question {
-    background: #DDDDFF url(/img/help.png) no-repeat left center;
+    background: #DDDDFF url(/img/help.png) no-repeat scroll 16px center;
     border-style: solid;
     border-color: #BBBBFF;
     border-width: 2px 0;
     margin: .5em 0;
-    padding: 0 0 0 18px;
+    padding: 0 48px;
 }
 
 #menu {
@@ -88,7 +88,9 @@ code, pre {
 
 #menu h2 {
     -moz-border-radius: 0 15px 15px 0;
+    -webkit-border-radius: 0 15px 15px 0;
     background-color: #333333;
+    border-radius: 0 15px 15px 0;
     color: white;
     margin: 0;
 }
@@ -141,5 +143,5 @@ code, pre {
 
 #footer a, #footer a:hover, #footer a:visited {
     text-decoration: none;
-    color: #0066CC;
+    color: #0080FF;
 }
