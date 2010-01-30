@@ -45,13 +45,9 @@ category: pas
 ## Zadania ##
 
 <div class="question">
-
-Napisać na trzy sposoby standardowy program wypisujący "Hello world!" (interaktywnie, wsadowo i jako skrypt).
-
+<p>Napisać na trzy sposoby standardowy program wypisujący "Hello world!" (interaktywnie, wsadowo i jako skrypt).</p>
 </div>
 
 <div class="question">
-
-Napisać funkcję, która dla dwóch argumentów całkowitoliczbowych znajdzie ich największy wspólny dzielnik.
-
+<p>Napisać funkcję, która dla dwóch argumentów całkowitoliczbowych znajdzie ich największy wspólny dzielnik.</p>
 </div>
