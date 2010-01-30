@@ -70,6 +70,15 @@ code, pre {
     text-align: justify;
 }
 
+.question {
+    background: #DDDDFF url(/img/help.png) no-repeat left center;
+    border-style: solid;
+    border-color: #BBBBFF;
+    border-width: 2px 0;
+    margin: .5em 0;
+    padding: 0 0 0 18px;
+}
+
 #menu {
     left: -20px;
     margin-top: 70px;

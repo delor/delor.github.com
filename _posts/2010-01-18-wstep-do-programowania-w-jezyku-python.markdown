@@ -40,3 +40,12 @@ title: Wstęp do programowania w języku Python
         finally:
             # kod, który zawsze zostanie wykonany
     `raise` wyrzuca wyjątek
+
+## Zadania ##
+<div class="question">
+Napisać na trzy sposoby standardowy program wypisujący "Hello world!" (interaktywnie, wsadowo i jako skrypt).
+</div>
+
+<div class="question">
+Napisać funkcję, która dla dwóch argumentów całkowitoliczbowych znajdzie ich największy wspólny dzielnik.
+</div>
