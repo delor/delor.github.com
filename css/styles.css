@@ -19,6 +19,10 @@ code, pre {
     background-color: #EEEEEE;
 }
 
+pre {
+    padding-left: 1em;
+}
+
 #top {
     -moz-border-radius-bottomleft: 15px;
     -moz-border-radius-bottomright: 15px;
