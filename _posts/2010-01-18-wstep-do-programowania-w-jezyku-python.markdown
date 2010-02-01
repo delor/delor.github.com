@@ -51,3 +51,12 @@ category: pas
 <div class="question">
 <p>Napisać funkcję, która dla dwóch argumentów całkowitoliczbowych znajdzie ich największy wspólny dzielnik.</p>
 </div>
+
+<div class="answer">
+{% highlight python %}
+def nwd(a, b):
+    while b:
+        a, b = b, a%b
+    return a
+{% endhighlight %}
+</div>
