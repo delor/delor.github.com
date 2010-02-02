@@ -83,6 +83,10 @@ pre {
     padding: 0 48px;
 }
 
+.question pre, .question code{
+    background-color: #DDDDFF;
+}
+
 .answer {
     background: #DDFFDD url(/img/accept.png) no-repeat scroll 16px center;
     border-style: solid;
@@ -90,6 +94,10 @@ pre {
     border-width: 2px 0;
     margin: .5em 0;
     padding: 0 48px;
+}
+
+.answer pre, .answer code {
+    background-color: #DDFFDD;
 }
 
 #menu {
