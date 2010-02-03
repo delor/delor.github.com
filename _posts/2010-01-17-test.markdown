@@ -29,10 +29,19 @@ def foo():
     print 'bar'
 </pre>
 
+<div class="question">
 <script type="syntaxhighlighter" class="brush: py"><![CDATA[
 def foo():
     print 'bar'
 ]]></script>
+</div>
+
+<div class="answer">
+<script type="syntaxhighlighter" class="brush: py"><![CDATA[
+def foo():
+    print 'bar'
+]]></script>
+</div>
 
 <script type="text/javascript">
     SyntaxHighlighter.all()
