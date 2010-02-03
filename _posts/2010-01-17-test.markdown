@@ -23,3 +23,12 @@ end
 embeded gist
 
 <script src="http://gist.github.com/284902.js?file=test.rb"></script>
+
+<pre class="brush: python">
+def foo():
+    print 'bar'
+</pre>
+
+<script type="text/javascript">
+    SyntaxHighlighter.all()
+</script>
