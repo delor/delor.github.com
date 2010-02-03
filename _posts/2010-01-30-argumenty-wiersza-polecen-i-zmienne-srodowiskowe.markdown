@@ -26,6 +26,17 @@ argument nr 2: 'Cos tam'
 </ul>
 </div>
 
+<div class="answer">
+{% highlight python%}
+import sys
+
+print 'nazwa programu:', sys.argv[0]
+ilosc_argumentow = len(sys.argv)
+for numer in range(1, ilosc_argumentow):
+    print 'argument nr %i: %s' % (numer, sys.argv[numer])
+{% endhighlight %}
+</div>
+
 <div class="question">
 <p>Napisać program, który dla każdej z zadanych w parametrach wiersza poleceń zmiennych środowiskowych wyświetli w osobnym wierszu napis postaci NAZWA=WARTOŚĆ, np.:</p>
 <pre>
@@ -41,4 +52,18 @@ ABC=abc
 <li><a href="http://docs.python.org/library/os.html#process-parameters">Process Parameters</a></li>
 <li><a href="http://diveintopython.org/scripts_and_streams/stdin_stdout_stderr.html">Dive Into Python - Standard input, output, and error</a></li>
 </ul>
+</div>
+
+<div class="answer">
+{% highlight python %}
+import sys
+import os
+
+for zmienna in sys.argv[1:]:
+    try:
+        print '%s=%s' % (zmienna, os.environ[zmienna])
+    except KeyError, err:
+        print >> sys.stderr, 'zmienna %s nie jest ustawiona' % err
+        sys.exit(1)
+{% endhighlight %}
 </div>
