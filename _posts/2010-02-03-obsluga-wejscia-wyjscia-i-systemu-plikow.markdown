@@ -210,3 +210,7 @@ plik.txt 2345678</code></pre>
     <li>Moduł optparse</li>
   </ul>
 </div>
+
+<script type="text/javascript">
+    SyntaxHighlighter.all()
+</script>
