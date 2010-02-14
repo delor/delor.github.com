@@ -23,14 +23,26 @@ pre {
     padding-left: 1em;
 }
 
+#shadow-frame {
+    -moz-border-radius: 15px;
+    -moz-box-shadow: 3px 3px 5px #AAAAAA;
+    -webkit-border-radius: 15px;
+    -webkit-box-shadow: 3px 3px 5px #AAAAAA;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #AAAAAA;
+}
+
 #top {
     -moz-border-radius-bottomleft: 15px;
     -moz-border-radius-bottomright: 15px;
+    -moz-box-shadow: 3px 3px 5px #AAAAAA;
     -webkit-border-bottom-left-radius: 15px;
     -webkit-border-bottom-right-radius: 15px;
+    -webkit-box-shadow: 3px 3px 5px #AAAAAA;
     background-color: #333333;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    box-shadow: 3px 3px 5px #AAAAAA;
     margin-bottom: 40px;
 }
 
@@ -109,9 +121,12 @@ pre {
 
 #menu h2 {
     -moz-border-radius: 0 15px 15px 0;
+    -moz-box-shadow: 3px 3px 5px #AAAAAA;
     -webkit-border-radius: 0 15px 15px 0;
+    -webkit-box-shadow: 3px 3px 5px #AAAAAA;
     background-color: #333333;
     border-radius: 0 15px 15px 0;
+    box-shadow: 3px 3px 5px #AAAAAA;
     color: white;
     margin: 0;
 }
@@ -124,9 +139,12 @@ pre {
 
 #menu li {
     -moz-border-radius: 0 15px 15px 0;
+    -moz-box-shadow: 3px 3px 5px #AAAAAA;
     -webkit-border-radius: 0 15px 15px 0;
+    -webkit-box-shadow: 3px 3px 5px #AAAAAA;
     background-color: #333333;
     border-radius: 0 15px 15px 0;
+    box-shadow: 3px 3px 5px #AAAAAA;
     display: block;
     margin: 5px 0;
     padding-right: 15px;
