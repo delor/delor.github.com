@@ -4,7 +4,9 @@ body, html {
     padding:0;
 }
 
-body { background-color: #F0F0EE; }
+body {
+    background: url("bg-clouds-gray-indeks.png") repeat-x scroll center top #EAEAEA;
+}
 
 a { text-decoration: none; }
 a:hover, a:active { text-decoration: underline; }
