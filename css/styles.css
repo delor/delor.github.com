@@ -5,7 +5,7 @@ body, html {
 }
 
 body {
-    background: url("bg-clouds-gray-indeks.png") repeat-x scroll center top #EAEAEA;
+    background: url("/img/bg-clouds-gray-indeks.png") repeat-x scroll center top #EAEAEA;
 }
 
 a { text-decoration: none; }
