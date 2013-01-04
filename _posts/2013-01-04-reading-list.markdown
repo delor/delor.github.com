@@ -2,6 +2,10 @@
 layout: post
 title: Reading list
 ---
+Already read
+
+* _Clean Code: A Handbook of Agile Software Craftsmanship_ by Robert C. Martin
+
 Currently reading
 
 * _The Pragmatic Programmer: From Journeyman to Master_ by Andrew Hunt and David Thomas
