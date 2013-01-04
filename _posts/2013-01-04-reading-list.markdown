@@ -4,6 +4,6 @@ title: Reading list
 ---
 Currently reading
 
-* The Pragmatic Programmer: From Journeyman to Master by Andrew Hunt and David Thomas
+* _The Pragmatic Programmer: From Journeyman to Master_ by Andrew Hunt and David Thomas
 
 Reading backlog
