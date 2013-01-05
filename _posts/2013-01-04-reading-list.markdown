@@ -22,3 +22,5 @@ title: Reading list
 * _Service Design Patterns_ by Robert Daigneau
 * _Domain-Specific Languages_ by Martin Fowler
 * _Continuous Delivery_ by Jez Humble, David Farley
+* _NoSQL Distilled_ by Pramod J. Sadalage, Martin Fowler
+* _Working Effectively with Legacy Code_ by Michael Feathers
