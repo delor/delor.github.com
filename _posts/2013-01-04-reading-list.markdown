@@ -26,3 +26,5 @@ title: Reading list
 * _Working Effectively with Legacy Code_ by Michael Feathers
 * _Cisza w sieci_ by Michal Zalewski
 * _Oprogramowanie szyte na miarę. Jak rozmawiać z klientem, który nie wie, czego chce_ by Michał Bartyzel
+* _The Lean Startup_ by Eric Ries
+* _Rework_ by Jason Fried and David Heinemeier Hansson
