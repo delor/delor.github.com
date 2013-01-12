@@ -24,3 +24,5 @@ title: Reading list
 * _Continuous Delivery_ by Jez Humble, David Farley
 * _NoSQL Distilled_ by Pramod J. Sadalage, Martin Fowler
 * _Working Effectively with Legacy Code_ by Michael Feathers
+* _Cisza w sieci_ by Michal Zalewski
+* _Oprogramowanie szyte na miarę. Jak rozmawiać z klientem, który nie wie, czego chce_ by Michał Bartyzel
