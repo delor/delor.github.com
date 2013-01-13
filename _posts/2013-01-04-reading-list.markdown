@@ -4,6 +4,7 @@ title: Reading list
 ---
 ## Already read
 
+* _Effective Java (2nd Edition)_ by Joshua Bloch
 * _Clean Code: A Handbook of Agile Software Craftsmanship_ by Robert C. Martin
 * _The Pragmatic Programmer: From Journeyman to Master_ by Andrew Hunt and David Thomas
 
