@@ -7,11 +7,11 @@ title: Reading list
 * _Effective Java (2nd Edition)_ by Joshua Bloch
 * _Clean Code: A Handbook of Agile Software Craftsmanship_ by Robert C. Martin
 * _The Pragmatic Programmer: From Journeyman to Master_ by Andrew Hunt and David Thomas
+* _Test Driven Development: By Example_ by Kent Beck
 
 ## Currently reading
 
 * _Refactoring: Improving the Design of Existing Code_ by Martin Fowler, Kent Beck, John Brant, William Opdyke, Don Roberts
-* _Test Driven Development: By Example_ by Kent Beck
 
 ## Reading backlog
 
