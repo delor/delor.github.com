@@ -12,6 +12,9 @@ title: Reading list
 ## Currently reading
 
 * _Refactoring: Improving the Design of Existing Code_ by Martin Fowler, Kent Beck, John Brant, William Opdyke, Don Roberts
+* _RESTful Web Services_ by Leonard Richardson, Sam Ruby
+* _Getting Started with OAuth 2.0_ by Ryan Boyd
+* _Responsible Design for Android_ by J. B. Rainsberger
 
 ## Reading backlog
 
