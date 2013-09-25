@@ -1,6 +1,6 @@
 ---
 layout: post
-title: scm_breeze cheat sheet
+title: SCM Breeze cheat sheet
 ---
 
 
