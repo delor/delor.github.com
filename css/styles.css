@@ -1,10 +1,6 @@
-body, html {
-    font: medium/1.25 'Gill Sans','Gill Sans MT',Corbel,Helvetica,'Nimbus Sans L',sans-serif;
-    margin:0;
-    padding:0;
-}
-
 body {
+    font-family: 'PT Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
     background: url("/img/bg-clouds-gray-indeks.png") repeat-x scroll center top #EAEAEA;
 }
 
@@ -17,7 +13,6 @@ h1 { font-size: 175%; }
 h2 { font-size: 145%; }
 
 code, pre {
-    font: small/1.25 Consolas,'Andale Mono',Monaco,'Liberation Mono','Bitstream Vera Sans Mono','DejaVu Sans Mono',monospace;
     background-color: #EEEEEE;
 }
 
@@ -50,7 +45,7 @@ pre {
     border-style: solid;
     border-width: 0 1px;
     min-height: 20em;
-    padding: 0.25em 1.5em 0.5em 1.5em;
+    padding: 1.5em;
     text-align: justify;
 }
 
@@ -94,7 +89,7 @@ footer p {
     margin: 0;
 }
 
-footer a, footer a:hover, footer a:visited {
+footer a, footer a:hover, footer a:visited, footer a:link {
     text-decoration: none;
-    color: #0080FF;
+    color: #09C;
 }
